@@ -39,7 +39,7 @@ public class CropController {
   }
 
   /**
-   * Method to get all crops.
+   * Route to get all crops.
    */
   @GetMapping
   public ResponseEntity<List<Crop>> getAllCrops() {

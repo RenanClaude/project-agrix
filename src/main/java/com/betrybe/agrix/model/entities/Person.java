@@ -1,7 +1,9 @@
-package com.betrybe.agrix.ebytr.staff.entity;
+package com.betrybe.agrix.model.entities;
 
 
 import com.betrybe.agrix.ebytr.staff.security.Role;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,7 +23,7 @@ public class Person {
 
   @Column(unique = true)
   private String username;
-
+  @JsonInclude(Include.NON_NULL)
   private String password;
 
   private Role role;

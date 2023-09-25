@@ -3,9 +3,9 @@ package com.betrybe.agrix.solution;
 import static org.mockito.ArgumentMatchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.betrybe.agrix.ebytr.staff.entity.Person;
-import com.betrybe.agrix.ebytr.staff.repository.PersonRepository;
-import com.betrybe.agrix.ebytr.staff.service.PersonService;
+import com.betrybe.agrix.model.entities.Person;
+import com.betrybe.agrix.model.repositories.PersonRepository;
+import com.betrybe.agrix.service.PersonService;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
