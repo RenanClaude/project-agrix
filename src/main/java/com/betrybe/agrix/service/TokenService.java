@@ -33,6 +33,17 @@ public class TokenService {
         .sign(algorithm);
   }
 
+  /**
+   * Method to validate a Token.
+   */
+  public String validateToken(String token) {
+    return JWT.require(this.algorithm)
+        .withIssuer("Agrix")
+        .build()
+        .verify(token)
+        .getSubject();
+  }
+
   private Instant generateExpirationDate() {
     return LocalDateTime.now()
         .plusHours(2)
