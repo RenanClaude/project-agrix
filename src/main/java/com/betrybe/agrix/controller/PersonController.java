@@ -29,9 +29,14 @@ public class PersonController {
    * Route to create a person.
    */
   @PostMapping
-  public ResponseEntity<Person> createPerson(@RequestBody Person newPerson) {
+  public ResponseEntity<PersonDto> createPerson(@RequestBody Person newPerson) {
     Person personCreated = this.personService.create(newPerson);
-    Person personFromEntity = new PersonDto(personCreated).response();
+
+    PersonDto personFromEntity = new PersonDto(
+        personCreated.getId(),
+        personCreated.getUsername(),
+        personCreated.getRole());
+
     return ResponseEntity.status(HttpStatus.CREATED).body(personFromEntity);
   }
 }
