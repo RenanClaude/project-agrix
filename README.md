@@ -3,14 +3,12 @@
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
-
 Agrix é uma aplicação back-end web contruída durante a formação da escola de programação [Trybe](https://www.betrybe.com/) no módulo da eletiva de Java.
 
 A aplicação consiste em um sistema de gestão e monitoramento de fazendas, havendo colheitas e fertilizantes. O objetivo é que cada usuário possa manter a administração das suas próprias fazendas cadastradas. 
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/RenanClaude/assets/blob/main/agrix-tabelas.png)
+<img src="https://github.com/RenanClaude/assets/blob/main/agrix-tabelas.png" width=600>
 
 # Tecnologias utilizadas
 ## Back end
