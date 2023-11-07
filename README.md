@@ -28,11 +28,11 @@ Pré-requisitos: Java 17
 # clonar repositório
 git clone https://github.com/devsuperior/sds1-wmazoni
 
-# entrar na pasta do projeto back end
-cd backend
+# entrar na pasta do projeto Agrix
+cd project-agrix
 
 # executar o projeto
-./mvnw spring-boot:run
+arquivo: AgrixApplication.java - run as java application
 ```
 
 # Autor
