@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Agrix é uma aplicação back-end web contruída durante a formação da escola de programação [Trybe](https://www.betrybe.com/) no módulo da eletiva de Java.
+Agrix é uma aplicação back-end web construída durante a formação da escola de programação [Trybe](https://www.betrybe.com/) no módulo da eletiva de Java.
 
 A aplicação consiste em um sistema de gestão e monitoramento de fazendas, havendo colheitas e fertilizantes. O objetivo é que cada usuário possa manter a administração das suas próprias fazendas cadastradas. Cada usuário tem a sua própria autenticação de conta! 
 
